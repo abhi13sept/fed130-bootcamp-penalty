@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Montserrat;
+}
+
+body {
+    background: #9013fe;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 700px;
+    padding: 50px;
+    align-self: center;
+}
+
+.container > .row {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-icon {
+    border-radius: 50%;
+    border: 2px solid bisque;
+}
+
+.name {
+    margin: 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.round-runs {
+    font-size: xx-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+.prog {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.score {
+    margin: -80px 0 0;
+    font-size: xx-large;
+}
+
+.score > span {
+    margin: 0 5px;
+}
